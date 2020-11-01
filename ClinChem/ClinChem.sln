@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinChem", "ClinChem.csproj", "{7029CA38-E941-4C00-A42A-D176DA31CB25}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ClinChem_DB", "..\ClinChem_DB\ClinChem_DB.sqlproj", "{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7029CA38-E941-4C00-A42A-D176DA31CB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7029CA38-E941-4C00-A42A-D176DA31CB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7029CA38-E941-4C00-A42A-D176DA31CB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7029CA38-E941-4C00-A42A-D176DA31CB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFBB9E8-40B0-4338-AC0E-CC8D51B24625}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78C163E2-7C24-4ADA-8756-10967ACD4073}
+	EndGlobalSection
+EndGlobal
