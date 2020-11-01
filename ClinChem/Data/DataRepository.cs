@@ -103,13 +103,13 @@ namespace ClinChem.Data
             }
         }
 
-        public IEnumerable<IGetResultResponse> GetCaseResults(int caseId)
+        public IEnumerable<IGetResultResponse> GetCaseResults(int caseId, string testName)
         {
-            string sql = @"SELECT * FROM Case_Abnormal_Results WHERE CaseId = @caseId";
+            string sql = @"EXEC dbo.Get_Abnormal_Case_Result @Name = @testName, @CaseId = @caseId";
             using (var connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                return connection.Query<IGetResultResponse>(sql, new { caseId });
+                return connection.Query<IGetResultResponse>(sql, new { caseId, testName });
             }
         }
     }

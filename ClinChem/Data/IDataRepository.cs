@@ -14,6 +14,6 @@ namespace ClinChem.Data
         IEnumerable<GetNotesResponse> GetNotes(int caseId);
         IEnumerable<GetHistoryResponse> GetHistory(int caseId);
         IEnumerable<string> GetAllTestNames();
-        IEnumerable<IGetResultResponse> GetCaseResults(int caseId);
+        IEnumerable<IGetResultResponse> GetCaseResults(int caseId, string testName);
     }
 }

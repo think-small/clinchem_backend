@@ -34,7 +34,7 @@ namespace ClinChem.Controllers
 
             if (caseId != 0)
             {
-                var caseResults = _dataRepository.GetCaseResults(caseId);
+                var caseResults = _dataRepository.GetCaseResults(caseId, testName);
                 foreach (var result in caseResults)
                 {
                     if (result.Name.ToUpper() == testName.ToUpper())
